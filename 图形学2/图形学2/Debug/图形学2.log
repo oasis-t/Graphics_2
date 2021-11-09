@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\时生\source\repos\图形学2\图形学2\main.cpp(125,16): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“glew_static.pdb”(使用“glew32s.lib(glew.obj)”或在“C:\Users\时生\source\repos\图形学2\Debug\glew_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  图形学2.vcxproj -> C:\Users\时生\source\repos\图形学2\Debug\图形学2.exe

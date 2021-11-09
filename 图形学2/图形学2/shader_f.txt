@@ -1,0 +1,13 @@
+#version 330 core
+in vec3 ourColor;
+in vec2 ourTextureCoords;
+out vec4 color;
+uniform float time;
+
+uniform sampler2D ourTexture0;
+uniform sampler2D ourTexture1;
+
+void main()
+{
+       color = mix(texture(ourTexture0, ourTextureCoords), texture(ourTexture1,ourTextureCoords), sin(time*2)/2.0f+0.5f);//渐变
+}
